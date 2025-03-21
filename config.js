@@ -7,6 +7,8 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 import moment from 'moment-timezone';
 
+global.defaultLenguaje = 'es';
+
 global.owner = [
   ['5215641961070', '👑 Mystic - Creador 👑', true],
   ['5219531627349','💫 Mystic 💫', true]
